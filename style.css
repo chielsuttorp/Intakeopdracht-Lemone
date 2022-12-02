@@ -1,0 +1,157 @@
+/* Colours */
+:root {
+    --purple: #161D6C;
+    --blue: #008DFF;
+    --grey: #6A6F83;
+    --pink: #FF4879;
+}
+/* Font(s) */
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Header */
+.logo {
+    width: 200px;
+    height: 22px;
+}
+.menu a {
+    color: var(--purple);
+    text-decoration: none;
+}
+.contact p {
+    color: var(--blue);
+}
+
+/* Attention */
+.attention {
+    position: relative;
+    height: 94vh
+}
+/* reset attention for mobile view */
+@media screen and (max-width: 993px) {
+    .attention {
+        height: initial;
+    }
+}
+.attention-text {
+    width: 382px;
+}
+.attention-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--purple);
+}
+.attention-text p {
+    font-size: 18px;
+    color: var(--grey);
+}
+.attention-text a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: var(--pink);
+    border-radius: 30px;
+    padding: 20px 32px;
+}
+.blue-cube,
+.pink-cube,
+.blue-cube-mobile {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 36px;
+    height: 15px;
+}
+.blue-cube,
+.blue-triangle,
+.blue-cube-mobile {
+    background-color: var(--blue);
+}
+.blue-cube {
+    position: absolute;
+    left: 170px;
+    top: 340px;
+}
+.pink-cube {
+    position: absolute;
+    right: 450px;
+    top: 80px;
+    background-color: var(--pink);
+}
+.blue-triangle {
+    position: absolute;
+    width: 170px;
+    height: 154px;
+    right: 0;
+    top: 64px;
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+}
+.blue-cube-mobile {
+    position: absolute;
+    bottom: -7px;
+    right: 30px;
+}
+.background-desktop,
+.background-mobile {
+    top: 0;
+    right: 0;
+    width: 100%;
+    object-fit: cover;
+}
+.background-desktop {
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+.background-mobile {
+    position: relative;
+    background-image: url("img/blue-car-mobile.png");
+    background-size: cover;
+    background-position: center;
+    height: 533px;
+    z-index: -2;
+}
+/* Purple divider */
+.divider {
+    background-color: var(--purple);
+    height: 195px;
+}
+@media screen and (min-width: 993px) {
+    .divider {
+        height: 120px;
+    }
+}
+.transform-Y {
+    transform: translateY(-50%);
+}
+.vert {
+    justify-content:center;
+}
+.divider p {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 20px;
+    top: 6px;
+}
+.divider .container {
+        position: relative;
+        /* top: 50%;
+        transform: translateY(-50%); */
+}
+.check-box {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.check-box img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-90%);
+}
+/* Private lease */
+/* Ideale auto */
+/* Contact */
+/*  */

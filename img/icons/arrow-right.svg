@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <polygon id="path-1" points="0 0 14.70675 0 14.70675 8.9995 0 8.9995"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-desktop" transform="translate(-959.000000, -1627.000000)">
+            <g id="waarom-private-lease" transform="translate(84.000000, 1041.000000)">
+                <g id="content" transform="translate(657.000000, 89.000000)">
+                    <g id="button" transform="translate(3.000000, 471.000000)">
+                        <g id="Group-2" transform="translate(31.000000, 15.000000)">
+                            <g id="Group-3" transform="translate(184.000000, 11.000260)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M14.5605,4.85325 L10.5605,8.85325 C10.3655,9.04825 10.0485,9.04825 9.8535,8.85325 L9.1465,8.14625 C8.9515,7.95125 8.9515,7.63425 9.1465,7.43925 L11.0855,5.49925 L0.4995,5.49925 C0.2235,5.49925 -0.0005,5.27625 -0.0005,4.99925 L-0.0005,3.99925 C-0.0005,3.72325 0.2235,3.49925 0.4995,3.49925 L11.0855,3.49925 L9.1465,1.56025 C8.9515,1.36525 8.9515,1.04825 9.1465,0.85325 L9.8535,0.14625 C10.0485,-0.04875 10.3655,-0.04875 10.5605,0.14625 L14.5605,4.14625 C14.7555,4.34125 14.7555,4.65825 14.5605,4.85325" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
