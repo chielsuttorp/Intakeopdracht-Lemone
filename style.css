@@ -9,7 +9,70 @@
 * {
     font-family: 'DM Sans', sans-serif;
 }
-
+h1,
+h2 {
+    font-weight: 700;
+    color: var(--purple);
+}
+h1 {
+    font-size: 54px;
+}
+h2 {
+    font-size: 34px;
+}
+p {
+    font-size: 18px;
+    color: var(--grey);
+    line-height: 30px;
+}
+/* image quirks */
+.image-fullwidth {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+/* cube styling */
+.blue-cube,
+.blue-triangle,
+.blue-cube-mobile,
+.blue-cube-private-lease,
+.blue-square-private-lease-right {
+    background-color: var(--blue);
+}
+.blue-cube,
+.pink-cube,
+.blue-cube-mobile,
+.blue-cube-private-lease,
+.blue-square-private-lease-right,
+.pink-square-private-lease {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.blue-cube,
+.pink-cube,
+.blue-cube-mobile {
+    width: 36px;
+    height: 15px;
+}
+.blue-cube-private-lease {
+    bottom: -12px;
+    left: 41px;
+}
+.blue-square-private-lease-right {
+    right: 0;
+    top: 0;
+}
+.blue-square-private-lease-right,
+.blue-cube-private-lease,
+.pink-square-private-lease {
+    width: 58px;
+    height: 24px;
+    position: absolute;
+}
+.pink-square-private-lease {
+    background-color: var(--pink);
+    bottom: 0;
+    right: 390px;
+}
 /* Header */
 .logo {
     width: 200px;
@@ -42,29 +105,14 @@
     font-weight: 700;
     color: var(--purple);
 }
-.attention-text p {
-    font-size: 18px;
-    color: var(--grey);
-}
-.attention-text a {
-    font-size: 18px;
+.button {
+    font-size: 16px;
+    font-weight: 700;
     color: white;
     text-decoration: none;
     background-color: var(--pink);
     border-radius: 30px;
     padding: 20px 32px;
-}
-.blue-cube,
-.pink-cube,
-.blue-cube-mobile {
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    width: 36px;
-    height: 15px;
-}
-.blue-cube,
-.blue-triangle,
-.blue-cube-mobile {
-    background-color: var(--blue);
 }
 .blue-cube {
     position: absolute;
@@ -137,8 +185,6 @@
 }
 .divider .container {
         position: relative;
-        /* top: 50%;
-        transform: translateY(-50%); */
 }
 .check-box {
     background-color: white;
@@ -152,6 +198,45 @@
     transform: translateY(-90%);
 }
 /* Private lease */
+.private-lease {
+    position: relative;
+}
+.grey-paralellogram {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: #F6F7F8;
+    width: 870px;
+    height: 362px;
+    position: absolute;
+    left: -80px;
+    bottom: 20px;
+    z-index: -1;
+}
+.checkmarks {
+    align-items: center;
+}
+.checkmarks p {
+    padding-left: 15px;
+    font-size: 16px;
+    color: var(--purple);
+    font-weight: 700;
+    margin: 0;
+}
+/* forceer geen margin onder 3de object voor aansluiting */
+.checkmarks:nth-of-type(3) {
+    margin-bottom: 0px !important;
+}
 /* Ideale auto */
+.ideal-car p {
+    margin: 0;
+}
+.ideal-car .d-flex {
+    align-items: center;
+}
+.green-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #29B282;
+}
 /* Contact */
 /*  */
